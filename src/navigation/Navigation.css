@@ -7,8 +7,10 @@
 */
 
 .color{
-    
-    justify-content: center;
+    height: auto;
+    width: 100%;
+    position: relative;
+    /*justify-content: center;*/
     background-color:rgb(31, 26, 26);;
 }
 

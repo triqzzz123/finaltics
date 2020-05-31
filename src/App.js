@@ -2,17 +2,18 @@ import React from 'react';
 import './App.css';
 import Particles from 'react-particles-js';
 import Navigation from './navigation/Navigation';
-import Top from './top/Top'
+import Top from './top/Top';
+import Image from './image/Image'
 
-import'tachyons';
+import 'tachyons';
 
 const particlesoptions={
   particles: {
     number:{
-      value:900,
+      value:3000,
     density:{
       enable:true,
-      value_area:300
+      value_area:900
     }       
 }
 }
@@ -24,6 +25,7 @@ function App() {
      <Particles className="particles" part={particlesoptions}/>
       <Navigation/> 
       <Top />  
+      <Image/>
     </div>
   );
 }
